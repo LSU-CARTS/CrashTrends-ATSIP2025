@@ -30,7 +30,7 @@ for c in county_dict.values():
     os.mkdir(c)
     os.mkdir(f"{c}/moving_avg")
     os.mkdir(f"{c}/decomp")
-    os.mkdir(f"{c}/norm_metric_trends")
+    # os.mkdir(f"{c}/norm_metric_trends")
     for f in fields:
         if not os.path.exists(f"{c}/decomp/{f}"):
             os.mkdir(f"{c}/decomp/{f}")
