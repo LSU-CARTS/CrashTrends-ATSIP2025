@@ -2,6 +2,7 @@
 Stripped down versions of code required for Crash Trends presentation by Michael Allen at ATSIP TRF 2025.
 
 The scripts in this project are capable of making lots of data files and images very quickly. 
+Make sure you have a dedicated directory for this data.
 
 # Data Selection
 There are 4 scripts used to select data from your crash database.
